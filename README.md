@@ -1,4 +1,4 @@
-# Rosable: Discord Community programming in O5AB1E
+# Rosable: Discord Community programming in O5AB1E!
 
 Example server: https://discord.gg/HrSuRB5
 
@@ -53,6 +53,9 @@ It will ignore anything between command invocation and the code itself, so you c
 If input is blank, the message sent before command invocation will be treated as input. One last quirk
 is that rosable removes the first character of input if its a space and give by the command itself.
 You can bypass this behavior by putting input in the previous message. Have fun.
+
+It also works as an O5AB1E wrapper for python, so you can import `osable(code, data, timeout)` from
+it if you want ig.
 
 ## Examples:
 
